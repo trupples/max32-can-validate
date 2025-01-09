@@ -1,0 +1,6 @@
+&can0 {
+    status = "okay";
+    bitrate = <500000>;
+    sample-point = <850>;
+};
+

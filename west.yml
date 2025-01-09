@@ -1,0 +1,16 @@
+manifest:
+  version: 0.7
+  remotes:
+    - name: innersource
+      url-base: https://github.com/adi-innersource
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  defaults:
+    remote: zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: innersource
+      revision: 8bf3518ddd20bd93e0b475bb6d4141862b114acb 
+      import: true
+  self:
+    path: validate
