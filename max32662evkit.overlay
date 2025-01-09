@@ -1,0 +1,8 @@
+&can0 {
+    status = "okay";
+    pinctrl-0 = <&can0b_rx_p0_6 &can0b_tx_p0_9>;
+    pinctrl-names = "default";
+    bitrate = <500000>;
+    sample-point = <850>;
+};
+
